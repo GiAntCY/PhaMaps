@@ -12,7 +12,7 @@ function initMap(){//Initiate Map
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     styles: [
               {"stylers": [{"saturation": -100}]},
-              {"featureType": "road.arterial","elementType": "geometry","stylers":[{ "color": "#ADD8E6"}]},
+              //{"featureType": "road.arterial","elementType": "geometry","stylers":[{ "color": "#ADD8E6"}]},
               //{"featureType": "road:highway","elementType": "geometry","stylers":[{ "color": "#ADD8E6"}]},
               {"featureType": "landscape","elementType": "labels","stylers": [{"visibility": "off" }]}
             ]
