@@ -13,7 +13,7 @@
 	height: calc(100% + var(--borderWidth) * 2);
 	width: calc(100% + var(--borderWidth) * 2);
 	/*background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);*/
-	background: linear-gradient(45deg,#ADD8E6,whitesmoke,#c1c1c1,whitesmoke,#ADD8E6);
+	background: linear-gradient(160deg,#ADD8E6,whitesmoke,#c1c1c1,whitesmoke,#ADD8E6);
 	/*border-radius: calc(1 * var(--borderWidth))*/
 	z-index: -1;
 	animation: animatedgradient 3s ease alternate infinite;
@@ -25,6 +25,24 @@
 	  50% {background-position: 100% 50%;}
 	  100% {background-position: 0% 50%;}
   }
+
+  .location_button {
+	/*background-image: url(https://media.gettyimages.com/videos/targeted-advertising-line-icon-animation-with-alpha-video-id1088207686?s=key2);*/
+	background: rgba(255,255, 255);
+    appearance: none;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+	margin: 4px;
+	border: 1px;
+	font-size:18px;
+	font-weight: bold;
+	color: rgb(102,102,102);
+	}	
+	
+.location_button:active {
+		color: black;
+	}
 
 .container{
 	width: 160px; 
