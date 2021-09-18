@@ -57,12 +57,13 @@ function init() {
 	//locationButton.classList.add("gradient-border");
 	map.controls[google.maps.ControlPosition.RIGHT_TOP].push(locationButton);
 	locationButton.addEventListener("click", () => {
-		if (pos_global=={lat:35.080232, lng:33.362082}){
-			location();
+		location();
+		/*if (pos_global==={lat:35.080232, lng:33.362082}){
+			
 		}else{
 			map.panTo(pos_global);//recenter
 			map.setZoom(zoom_level);//increase zoom
-		}
+		}*/
 	});
 
 
