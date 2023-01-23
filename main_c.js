@@ -11,6 +11,7 @@ function init() {
 	 var mapDiv = document.getElementById('map');
 	 var myOptions = {
 		zoom:zoom_level,
+		clickableIcons: false,
 	  	center:{lat:35.080232, lng:33.362082},
 	  	mapTypeControlOptions: {mapTypeIds: []},
 	  	disableDefaultUI: true,
